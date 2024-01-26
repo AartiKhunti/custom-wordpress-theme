@@ -1,0 +1,580 @@
+/*
+Theme Name: Custom Wordpress Theme
+Author: Aarti Khunti
+Version: 1.0
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,700;1,500&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+body {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Home page section one CSS start */
+
+section.custom-section-one {
+    background-size: cover;
+}
+
+.custom-section-inner {
+    padding: 100px 50px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+}
+
+.banner-title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 121%; 
+    width: 762px;
+    height: 138px;
+}
+
+.banner-description {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 121%;
+    width: 274px;
+    height: 27px;
+}
+
+.banner-button, .about-button {
+    display: flex;
+    padding: 0px 9px 0px 23px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 18px;
+    border-radius: 100px;
+    background: #FC115C;
+}
+
+.explore-button a{
+    display: flex;
+    width: 120px;
+    height: 52px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+}
+.svg-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Home page section one CSS end */
+
+/* Home page section two CSS start */
+
+section.custom-section-two {
+    background-color: #ffffff;
+}
+
+.about-inner-section {
+    padding: 48px 101px 53px 72px;
+}
+
+.about-us.left-half-section {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 36px;  
+}
+
+.tag-line {
+    color: #FC115C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 121%;
+}
+
+.about-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 121%;
+    width: 513px;
+    height: 74px;
+}
+
+.about-description.bold {
+    font-weight: 600;
+}
+
+.about-description {
+    color: #555;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 679px;
+}
+
+.read-more a {
+    display: flex;
+    width: 120px;
+    height: 52px;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+/* Home page section two CSS end */
+
+/* Home page section three CSS start */
+
+section.custom-section-three {
+    background: #F1F1F1;
+    padding: 44px 182px 53px 181px;
+}
+.top-rated-hotels {
+    border-radius: 20px 20px 0px 0px;
+    background: #5C33FF;
+    width: 217px;
+    height: 31px;
+    margin: 0 auto;
+}
+.top-rated-hotels h5 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+.table-title, .choose-us-title {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 121%;
+}
+
+.today {
+    color: #000;
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 126.5%;
+}
+
+.hotle-list-table.row.align-items-center:first-child {
+    margin: 0 auto 16px auto;
+}
+.hotle-list-table.row {
+    width: 1077px;
+    margin: 16px auto;
+    height: 148px; 
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 10px 15px -3px rgba(204, 204, 204, 0.20);
+}
+
+.number {
+    display: flex;
+    width: 32px;
+    height: 148px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FC115C;
+}
+.col-1.number p {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.col-2.d-inline.features {
+    width: 245px;
+    height: 148px;
+    flex-shrink: 0;
+}
+
+.excellent {
+    color: #9C9C9C;
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+.score {
+    display: flex;
+    width: 108px;
+    height: 148px;
+    padding: 0px 6px 0px 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.external{
+    margin: auto;
+    width: 253px;
+    padding: 43px 24px 31px 24px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 6px;
+
+}
+.address-sec {
+    color: #9C9C9C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.casino-address {
+    color: var(--Default-gray-800, #1F2937);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    width: 227px;
+    margin: 0 auto;
+}
+
+.star {
+    color: #DEDEDE; 
+}
+
+.star.active {
+    color: #FBBF24; 
+}
+.visite-hotel-button {
+    border-radius: 100px;
+    background: #27D04C;
+    width: 225px;
+    height: 48px;
+    padding: 16px 48px;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.casino-external-link a {
+    text-decoration: none;
+    color: #FFF !important;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.045px;
+}
+.post-permalink-hotel a {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+
+.circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #1e51dc;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+  }
+
+  @property --progress-value {
+    syntax: '<integer>';
+    inherits: false;
+    initial-value: 0;
+  }
+  
+  .progress-bar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .progress-number {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; 
+  }
+  
+  progress {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+/* Home page section three CSS end */
+
+/* Home page section four CSS start */
+
+.dsc-number {
+    border-radius: 100px;
+    background: #FC115C;
+    display: flex;
+    width: 69px;
+    height: 34px;
+}
+.choose-us-tag{margin: 0 auto 18px auto;}
+
+.dsc-number p {
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; 
+}
+.description-title {padding: 16px 0;}
+
+.description-title h3 {
+    text-align: left;
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 121%;
+    margin: 0;
+}
+.description-detail p {
+    text-align: left;
+    color: #A7A7A7;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+.choose-description {
+    margin-bottom: 46px;
+}
+.description-detail {width: 694px;}
+
+/* Home page section four CSS end */
+
+/* footer css start */
+
+.footer-main-div {
+    background: #101010;
+}
+.footer-colm {
+    padding: 21px 0 36px 0;
+}
+.footer-image.text-center {
+    padding: 38px 0;
+}
+.copy-right-tetx {
+    color: #939393;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+#menu-footer-menu .menu-item a {
+    color: #F3F4F6 !important;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none !important;
+}
+
+.navigation-menu {
+    text-align: center;
+}
+.navigation-menu ul {
+    display: inline-block;
+    padding: 0;
+    margin: 38px 0;
+}
+
+.navigation-menu li {
+    display: inline-block;
+    margin-right: 48px; 
+}
+
+.navigation-menu li:last-child {
+    margin-right: 0;
+}
+.custom-hr {
+    border: none;
+    width: 1143px;
+    height: 1px;
+    background: #F3F4F6;
+    margin: auto;
+}
+
+/* footer css end */
+
+/* Responsive css start */
+
+@media only screen and (max-width: 768px) {
+   
+    .custom-section-inner .logo, .banner-button, .banner-description, .banner-title, .choose-us-title, .progress-bar  { margin: auto;}
+    
+    .custom-section-inner {
+        padding: 30px 30px 60px 30px; 
+    }
+
+    .banner-title {
+        font-size: 36px; 
+        width: 394px;
+        text-align: center;
+    }
+
+    .banner-description {
+        font-size: 16px;
+        
+    }
+    .about-title, .about-description {width: 365px; }
+
+    .about-title {margin-bottom: 36px; } 
+
+    img.why-choose-logo {
+        width: 381px;
+        height: 515px;
+    }
+    .about-inner-section {
+        padding: 60px 30px 40px 30px;
+    }
+    section.custom-section-three {
+        padding: 39px 30px;
+    }
+    .table-title {
+        width: 417px;
+        height: 80px;
+    }
+    .choose-us-title {
+        width: 342px;
+        height: 53px;
+    }
+    .number{display: none;}
+    .hotle-list-table.row {
+        width: 362px;
+        height: 336px;
+        padding: 10px 0 10px 0;
+    }
+    .progress-bar {
+        width: 75px;
+        height: 75px;   
+    } 
+    hr.custom-hr-line {
+        background: #E0E0E0;
+        width: 278px;
+        margin: 10px auto 10px auto;
+    }
+
+    .col-12.d-inline.external {
+        padding: 0;
+        width: 205px;
+    }
+    .score {
+        width: 100PX;
+        height: 100px; }
+
+    .description-title h3 {
+        width: 353px;
+        height: 57px; 
+    }  
+
+    .description-detail {width: 379px; }  
+    .choose-description {margin-bottom: 38px;}    
+    .why-choose-us.right-half-section.col-md-7 {margin-top: 38px;padding: 0 30px }
+
+    .navigation-menu li {
+        display: block;
+        margin: 0 0 32px 0;
+    }
+    hr.custom-hr {
+        width: 324px;
+        margin: 30px auto;
+    }
+    .footer-colm {
+        padding: 14px 36px 14.518px 45px; }
+
+    .navigation-menu ul {
+        display: inline-block;
+        padding: 0;
+        margin: 30px 0 0 0;
+    }
+    .navigation-menu li:last-child {margin: 0;}
+}
+
+/* responsive style css end */
