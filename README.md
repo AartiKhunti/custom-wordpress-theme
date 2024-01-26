@@ -2,7 +2,7 @@
 
 This project contains a custom theme for wordpress built using PHP and Advanced Custom Fields (ACF).
 
-![Theme front page]([url](https://github.com/AartiKhunti/custom-wordpress-theme/blob/main/screenshot.png)https://github.com/AartiKhunti/custom-wordpress-theme/blob/main/screenshot.png)
+![Theme front page](https://github.com/AartiKhunti/custom-wordpress-theme/blob/main/screenshot.png)
 
 ### Installation
 
