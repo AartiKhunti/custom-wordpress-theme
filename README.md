@@ -4,6 +4,10 @@ This project contains a custom theme for wordpress built using PHP and Advanced 
 
 ![Theme front page](https://github.com/AartiKhunti/custom-wordpress-theme/blob/main/screenshot.png)
 
+### Prerequisites
+
+Install Advanced Custom Fields (ACF) plugin.
+
 ### Installation
 
 To run this custom theme locally
